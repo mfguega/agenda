@@ -78,7 +78,7 @@ def main(page: ft.Page):
             "telefono_cifrado": phone_encrypted
         })
 
-        friend_list.controls.append(ft.Text(f"{name} - {email} - [Teléfono cifrado]"))
+        friend_list.controls.append(ft.Text(f"{name} - {email} - [Celular cifrado]"))
         name_input.value = ""
         email_input.value = ""
         phone_input.value = ""
