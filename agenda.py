@@ -2,7 +2,7 @@ import flet as ft
 import re
 from cryptography.fernet import Fernet
 
-# Cifrado simulado del teléfono
+# Cifrado simulado del celular
 clave = Fernet.generate_key()
 cipher_suite = Fernet(clave)
 
